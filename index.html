@@ -4,18 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		
     <title>Resume</title>
     <style>
         .head{background-color: aqua; color: black;font-size: 30px;text-align: center;font-family: 'lucida calligraphy';
                font-weight: bolder;}
        
         .text{font-size: 18px;font-family: 'Times New Roman';display: flex;justify-content: space-between;}
-        h3{background-color: rgb(241, 148, 210);color: rgb(49, 18, 230); font-weight: bolder;font-size: 20px;}
-        div{font-family: 'Times New Roman';}
+        h3{background-color: rgb(247, 244, 114);color: rgb(49, 18, 230); font-weight: bolder;font-size: 20px;}
+        div{font-family: 'Times New Roman';font-size: 18px;}
         img{padding: 15px;}
+        h4{color: red;font-size: 20px;font-weight: bold;}
+        label{font-size: 17px;color: blue;font-weight: lighter;}
+        table{width: 100%;}
+        #margin {
+				background-color: hsla(357, 93%, 59%, 0.959);
+				width: 100%;
+				height: 25px;
+				border-bottom-right-radius: 50% 50%;
+				border-bottom-left-radius: 50% 50%;
+				
+			}
+            #margin1 {
+				background-color: hsla(357, 93%, 59%, 0.959);
+				width: 100%;
+				height: 25px;
+				border-top-right-radius: 50% 50%;
+				border-top-left-radius: 50% 50%;
+				
+			}
+        
     </style>
 </head>
 <body>
+    <div id="margin" class="container"></div> <br/>
     <div class="container">
         <div class="head">
             <div><img src="DSC.jpg" class="img-rounded" alt="dp" width="150px" height="200px"></div>
@@ -42,20 +65,113 @@
                     <td>Intermediate (M.P.C)</td> <td>Sri Vema Junior College, Naidupeta</td> <td>Board of Intermediate Education, Andhra Pradesh</td> <td>2014</td> <td>77.1%</td>
                 </tr>
                 <tr>
-                    <td>SSC</td> <td>Navodaya E.M School, Naidupets</td> <td>Board of Secondary Education, Andhra Pradesh</td> <td>2012</td> <td>6.5 GPA</td>
+                    <td>SSC</td> <td>Navodaya E.M School, Naidupeta</td> <td>Board of Secondary Education, Andhra Pradesh</td> <td>2012</td> <td>6.5 GPA</td>
                 </tr>
             </table>
             </div>
         </div>
         <div>
             <h3>TECHINCAL SKILLS</h3>
-            <div class="container">
+           <div class="container">
+            <table class='table'>   
+            <tr>
+                   <td>
+                   <h4>Web Technologies</h4>
+                   <label>HTML</label>
+                   <div class="progress" >
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%">85%</div>
+                    </div><br>
+                   <label>CSS</label>
+                   <div class="progress" >
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%">80%</div>
+                    </div><br>
+                   <label>JQuery</label>
+                   <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%">75%</div>
+                </div><br>
+                   <label>Bootstrap</label>
+                   <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%">75%</div>
+                </div><br>
+                   <label>Node JS</label>
+                   <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%">75%</div>
+                </div><br>
+                </td>
+                <td>
+                    <h4>Languages</h4>
+                    <label>JavaScript</label>
+                    <div class="progress">
+                         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%">85%</div>
+                     </div><br>
+                    <label>TypeScript</label>
+                    <div class="progress">
+                         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%">80%</div>
+                     </div><br>
+                    <label>Python</label>
+                    <div class="progress">
+                     <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%">85%</div>
+                 </div><br>
+                    <label>PHP</label>
+                    <div class="progress" >
+                     <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:35%">35%</div>
+                 </div><br>
+                    
+                </td>
+                <td>
+                    <h4>Frameworks</h4>
+                    <label>Angular 2+</label>
+                    <div class="progress">
+                         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%">80%</div>
+                     </div><br>
+                    <label>Express JS</label>
+                    <div class="progress" >
+                         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:65%">65%</div>
+                     </div><br>
+                    <label>React JS</label>
+                    <div class="progress">
+                     <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:60%">65%</div>
+                 </div><br>
+                                        
+                </td>
+                <td>
+                    <h4>Database</h4>
+                    <label>MongoDB</label>
+                    <div class="progress">
+                         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%">80%</div>
+                     </div><br>
+                    <label>SQL</label>
+                    <div class="progress">
+                         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%">40%</div>
+                     </div><br>
+                                                           
+                </td>
+                <td>
+                    <h4>Development Tools</h4>
+                    <label>Notepad++</label>
+                    <div class="progress">
+                         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%">90%</div>
+                     </div><br>
+                    <label>Microsoft Visual Studio</label>
+                    <div class="progress">
+                         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%">80%</div>
+                     </div><br>
+                     <label>IDLE</label>
+                    <div class="progress">
+                         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%">85%</div>
+                     </div>                                          
+                </td>
+               </tr>
+            </table>
+               
+           </div>
+            <!-- <div class="container">
                 <b>Web Technologies:</b> HTML, CSS, JQuery, Bootstrap, Node JS. <br/>
                 <b>Languages:</b> JavaScript, TypeScript, Python, Basics of PHP. <br/>
                 <b>Frameworks: </b>Angular 2+, Express JS, React JS. <br/>
                 <b>Database: </b>MongoDB, Basics of MySQL. <br/>
                 <b>IDE’S known: </b>Visual Studio Code, IDLE.
-            </div>
+            </div> -->
         </div>
         <div>
             <h3>COURSES & CERTIFICATIONS</h3>
@@ -109,7 +225,7 @@
             </div>
         </div>
         <div>
-            <h3>PORTFOLIO</h3>
+            <h3>PROFILE</h3>
             <div class="container">
                 <b>LinkedIn:</b><a href="https://www.linkedin.com/in/dinesh-pammi-933573137/">https://linkedin.com/in/dinesh-pammi-933573137/</a> <br/>
                 <b>GitHub:</b><a href="https://github.com/dineshpammi ">https://github.com/dineshpammi </a>
@@ -118,7 +234,8 @@
         <div>
             <h3>DECLARATION</h3>
             <p>I hereby declare that the information furnished above is correct to the best of my knowledge.</p>
-        </div>
+        </div> 
+        <div id="margin1" class="container"></div>
     </div>
     
 </body>
